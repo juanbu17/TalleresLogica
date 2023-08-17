@@ -1,39 +1,17 @@
-/*
 
-
-
-
-3. Considere que se dispone de la producción de carbón ( en toneladas) 
-de los últimos 12 meses. Con estos datos se quiere calcular e imprimir el promedio
-anual de toneladas.
-Datos: podCarbon1, podCarbon2…podCarbon12.
-Realice el diagrama de flujo y el programa correspondiente.
-Pruebe con un conjunto de datos adecuados.
-
-
-4. En una concesionaria automotriz se tiene información sobre las ventas realizadas a lo largo del ultimo mes. Se conoce el total de las ventas y el precio de venta de cada unidad. También se conoce que la concecionaria paga una comisión a sus vendedores de acuerdo con el precio de la unidad.
-
-Si el precio <= 100000, la comisión es del 1.5%
-Si precio > 100000 y precio <= 250000, la comisión es del 1.8%
-Si precio > 250000 , la comisión es del 2.3%
-
-Datos :
-
-n= numero de automóviles vendidos
-Precio: es el precio de la venta i (1<= i <= n) y precio > 0.
-
-Realice un diagrama de flujo y escriba el programa que resuelva el problema. De ser necesario pruebe la solución con un conjunto de datos adecuados.
-
- */
 package taller;
+
+import java.util.Scanner;
 
 /**
  *
  * @author Juan Buitrago
  */
-public class Solucion {
+public class Ejercicio1 {
 
     public static void main(String[] args) {
+        Scanner leer=new Scanner(System.in);
+        
         System.out.println("Hola Mundo");
 
         int operacion1;
@@ -72,10 +50,22 @@ public class Solucion {
         
         
         
- /*2. Dados los lados de un rectángulo , calcular e imprimir el área y el perímetro.
-Datos: base y altura
-Realice el diagrama de flujo, el seudocódigo y el programa correspondiente a la 
-solución de este problema. Pruebe la solución con un conjunto de datos adecuado.      
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
     }
 
 }
