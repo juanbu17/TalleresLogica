@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Juan Buitrago
  */
-public class Ejercicio2 {
+public class Ejercicio2AreaPerim {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
     
