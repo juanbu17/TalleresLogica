@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author SERVER
+ * @author Juan Buitrago
  */
 public class Ejercicio3 {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Ejercicio3 {
         float prodCarbon10;
         float prodCarbon11;
         float prodCarbon12;
-        
+        float promedio= prodCarbon1+3;
         
         
         System.out.println("Ingrese produccion del mes 1");
@@ -56,6 +56,8 @@ public class Ejercicio3 {
             prodCarbon11 = leer.nextFloat();
         System.out.println("Ingrese produccion del mes 12");
             prodCarbon12 = leer.nextFloat();
+            
+            System.out.println("Promedio Anual de toneladas: "+promedio);
         
         
         

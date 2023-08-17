@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author SERVER
+ * @author Juan Buitrago
  */
 public class Ejercicio2 {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Ejercicio2 {
     /*Calculo del Area*/ 
  
         System.out.println("");
-        System.out.println("-----Area y perimetro-----");
+        System.out.println("-----Valor Area-----");
         System.out.println("");
            
         int largo;         
