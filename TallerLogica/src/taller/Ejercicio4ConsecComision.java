@@ -1,6 +1,4 @@
 /*
-
-
 4. En una concesionaria automotriz se tiene información sobre las ventas 
 realizadas a lo largo del ultimo mes.
 - Se conoce el total de las ventas 
@@ -27,8 +25,10 @@ package taller;
  *
  * @author SERVER
  */
-public class Ejercicio4 {
+public class Ejercicio4ConsecComision {
     public static void main(String[] args) {
+        int n;
+        int precio;
         
     }
 }
