@@ -1,21 +1,14 @@
 /*
-Taller Lógica de programación 
 
-Realice las siguientes operaciones:
-3+8*5-6/3
-2.5*2*3-4/2+8
-2*(6-2.5)/3
-25>18
-3+2.5*4/3 != 4*5.2-3.8
-(8.5/3.2+6.5-2.3*5/6 >= 15.8) && (21.4<81/4+2)
 
-2. Dados los lados de un rectángulo , calcular e imprimir el área y el perímetro.
-Datos: base y altura
-Realice el diagrama de flujo, el seudocódigo y el programa correspondiente a la solución de este problema. Pruebe la solución con un conjunto de datos adecuado.
 
-Considere que se dispone de la producción de carbón ( en toneladas) de los últimos 12 meses. Con estos datos se quiere calcular e imprimir el promedio anual de toneladas.
+
+3. Considere que se dispone de la producción de carbón ( en toneladas) 
+de los últimos 12 meses. Con estos datos se quiere calcular e imprimir el promedio
+anual de toneladas.
 Datos: podCarbon1, podCarbon2…podCarbon12.
-Realice el diagrama de flujo y el programa correspondiente. Pruebe con un conjunto de datos adecuados.
+Realice el diagrama de flujo y el programa correspondiente.
+Pruebe con un conjunto de datos adecuados.
 
 
 4. En una concesionaria automotriz se tiene información sobre las ventas realizadas a lo largo del ultimo mes. Se conoce el total de las ventas y el precio de venta de cada unidad. También se conoce que la concecionaria paga una comisión a sus vendedores de acuerdo con el precio de la unidad.
@@ -36,7 +29,7 @@ package taller;
 
 /**
  *
- * @author 503
+ * @author Juan Buitrago
  */
 public class Solucion {
 
@@ -48,7 +41,11 @@ public class Solucion {
         float operacion3;
         boolean oper4 = (25 > 18);
         boolean oper5 = (3 + (2.5 * 4)) / 3 != (4 * 5.2) - 3.8;
-
+        boolean oper6 = (8.5/3.2)+6.5-((2.3*5)/6) >= 15.8 && (21.4<81/(4+2));
+        
+                        
+/*Realice las siguientes operaciones:*/
+        
         /*operacion 1  3+8*5-6/3 */
         operacion1 = 3 + (8 * 5) - (6 / 3);
         System.out.println("El resultado de la operacion 1 es: " + operacion1);
@@ -70,8 +67,15 @@ public class Solucion {
         System.out.println("El resultado de la operacion 25>18 es igual a: " + oper5);
         
         /*operacion 6    (8.5/3.2+6.5-2.3*5/6 >= 15.8) && (21.4<81/4+2)  */
+        System.out.println("El resultado de la operacion 25>18 es igual a: " + oper6);
         
-        aqui voy
+        
+        
+        
+ /*2. Dados los lados de un rectángulo , calcular e imprimir el área y el perímetro.
+Datos: base y altura
+Realice el diagrama de flujo, el seudocódigo y el programa correspondiente a la 
+solución de este problema. Pruebe la solución con un conjunto de datos adecuado.      
     }
 
 }
