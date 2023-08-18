@@ -17,6 +17,7 @@ import java.util.Scanner;
  * @author Juan Buitrago
  */
 public class Ejercicio5Banco {
+    static int pass = 123456;
     public static void main(String[] args) {
         
         int Newpass;
@@ -85,8 +86,8 @@ public class Ejercicio5Banco {
                       
                     System.out.println("Ingrese la nueva clave:");                      
                     Newpass = newpass.nextInt();
-                    nueva=Newpass; 
-                    System.out.println("Cambio de contraseña exitoso"); 
+                   clave(Newpass);
+                    
                                          
 
                     break;
@@ -136,8 +137,9 @@ public class Ejercicio5Banco {
     }
     
     /*funcion cambio de clave*/
-    public static int clave(int pass, int Newpass) {
-        pass = nueva;
+    public static int clave( int Newpass) {
+        pass = Newpass;
+        System.out.println("Cambio de contraseña exitoso"); 
         return pass;
     }
     
@@ -159,7 +161,7 @@ public class Ejercicio5Banco {
      public static boolean loguin(){
              Scanner sc = new Scanner(System.in);
                
-        int pass=123456;
+     
                      
             System.out.println("Bienvenido");
         System.out.println("Ingrese la contrasena:");
