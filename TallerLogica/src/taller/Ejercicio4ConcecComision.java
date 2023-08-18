@@ -46,10 +46,10 @@ public class Ejercicio4ConcecComision {
             float v= leer.nextFloat();
             ventas +=v;
             cont++;
-               System.out.println("Valor total ventas: $"+ventas);
+               System.out.println("Acumulado ventas: $"+ventas);
             
           
-               
+              
        
         }
                 /*seccion comision*/
