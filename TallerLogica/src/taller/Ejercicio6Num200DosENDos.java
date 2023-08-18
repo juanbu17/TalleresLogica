@@ -15,7 +15,7 @@ public class Ejercicio6Num200DosENDos {
         int num;
         System.out.println("Ingrese un numero menor a 200");
          num = leer.nextInt();
-       
+            System.out.println("");
         while(num<=200 ){
             System.out.println(num);
            num++;
