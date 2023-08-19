@@ -24,7 +24,7 @@ public class Ejercicio7PoderVida {
             if(num==3){
                 vida--;
                 System.out.println("Te queda: "+vida+" de vida");
-            }else{
+            }else if(num==5){  
                 poder++;
                 System.out.println("Has ganado: "+ poder+" puntos");
                 

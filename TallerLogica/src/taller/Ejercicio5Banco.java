@@ -33,6 +33,7 @@ public class Ejercicio5Banco {
         Scanner newpass = new Scanner(System.in);
         /* opcion while*/
         boolean cierre = true;
+        boolean bloqueo=true;
    
         while (cierre == true) {
 
@@ -95,7 +96,11 @@ public class Ejercicio5Banco {
                 case 4:
                     /*-Bloquear producto*/
                     
-                    
+                     System.out.println("Ha decidido bloquear el producto");
+                    System.out.println("");
+                    bloqueo = false;
+                    cierre=false;
+                    System.out.println("Producto bloqueado");
                    
                     break;
                     
