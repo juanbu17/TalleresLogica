@@ -68,15 +68,20 @@ public class Nombres {
                     String read;
                     read = leamos.nextLine();
                     
-                    if (nombres.equals(read)) {
+                    
                         for (int i = 0; i < nombres.size(); i++) {
-                        System.out.println("Nombres ingresados: " + nombres.get(i));
+                            if (nombres.get(i).equals(read)) {
+                               System.out.println("Nombres ingresados: " + nombres.get(i)); 
+                               fila = i;
+                               break;
+                            }
+                        
                        
-                        fila = i;
+                        
                         }/*else {
                                 System.out.println("El nombre no existe en la lista");
                                 }*/
-                    }
+                    
                     System.out.println("\t");
                     
                     System.out.println("El nombre: " + read +" esta en "+fila);
